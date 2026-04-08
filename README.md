@@ -8,22 +8,22 @@
 
 ```bash
 # Display current month calendar
-cal
+ncal
 
 # Display calendar for the year 2011
-cal 2011
+ncal 2011
 
 # Display calendar for July 1998
-cal 7 1998
+ncal 7 1998
 
 # Display calendars from 1990 to 2000
 for year in {1990..2000}; do cal $year; done
 
 # Display previous, current, and next month
-cal -3
+ncal -3
 
 # Display calendar with week numbers
-cal -w
+ncal -w
 
 # Display current month vertically (ncal format)
 ncal
@@ -32,7 +32,7 @@ ncal
 ncal -C
 
 # Display calendar in Julian format
-cal -j
+ncal -j
 ```
 
 ### 1.2 Date and Time Commands
