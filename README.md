@@ -753,7 +753,8 @@ sudo systemctl status smbd
 
 # Backup configuration
 sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.backup
-
+#user add
+sudo useradd pratik
 # Create a Samba user and set password
 sudo smbpasswd -a pratik
 
